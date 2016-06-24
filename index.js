@@ -70,7 +70,7 @@ app.post('/send', function(req, res) {
     }
     console.log('success');
   });
-  res.render('thanks');
+  res.render('thanks', data);
 });
 
 
